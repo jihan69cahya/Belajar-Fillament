@@ -107,10 +107,10 @@ class CustomerResource extends Resource
             ->columns([
                 TextColumn::make('nama')
                     ->searchable()
+                    ->sortable()
                     ->label('Nama Pelanggan'),
                 TextColumn::make('jenis_kelamin')
                     ->label('Jenis Kelamin')
-                    ->sortable()
                     ->badge()
                     ->formatStateUsing(function ($state) {
                         if ($state === 'L') {
@@ -135,6 +135,10 @@ class CustomerResource extends Resource
                     ->getStateUsing(function ($record) {
                         return $record->username . ' (' . $record->email . ')';
                     }),
+                TextColumn::make('created_at')
+                    ->since()
+                    ->dateTimeTooltip()
+                    ->label('Bergabung Sejak'),
             ])
             ->filters([
                 //
