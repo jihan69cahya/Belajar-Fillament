@@ -24,6 +24,7 @@ class KategoriResource extends Resource
 
     protected static ?string $modelLabel = 'Kategori';
     protected static ?string $pluralModelLabel = 'Kategori';
+    protected static ?string $slug = 'data-kategori';
 
     public static function form(Form $form): Form
     {
