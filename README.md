@@ -33,6 +33,21 @@ Project ini merupakan eksperimen dan sarana belajar saya untuk memahami:
 
 ---
 
+## 📸 Screenshot Aplikasi
+
+<p align="center">
+    <img src="public/assets/screenshot/login_page.png" alt="Login Page" width="600">
+</p>
+
+<p align="center">
+    <img src="public/assets/screenshot/kategori_page.png" alt="Kategori Page" width="600">
+</p>
+
+<p align="center">
+    <img src="public/assets/screenshot/produk_page.png" alt="Produk Page" width="600">
+</p>
+
+
 ## ⚙️ Instalasi
 
 Ikuti langkah berikut untuk menjalankan project di lokal:
